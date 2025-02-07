@@ -9,4 +9,3 @@ command = "npm run build"
 # Workers Sites configuration to serve static assets
 [site]
 bucket = "./out"  # The directory containing static assets after running `next export`
-entry-point = "workers-site"  # Cloudflare automatically uses this worker for serving static files

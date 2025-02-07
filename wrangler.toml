@@ -1,4 +1,4 @@
-name = "ai-indian-ethnic-outfit-designer-frontend"
+name = "aidesignerfrontend"
 main = "./app/layout.tsx"
 compatibility_date = "2023-02-07"
 

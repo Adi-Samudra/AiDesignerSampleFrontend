@@ -6,6 +6,6 @@ compatibility_date = "2023-02-07"
 [build]
 command = "npm run build"  # Your build command (e.g., for Next.js or React)
 
-[[site]]
+[site]
 bucket = "./out"  # This should be the directory where your static assets are after build (e.g., `out` for Next.js or `build` for React)
 entry-point = "./app/layout.tsx"  # Entry point for your worker code, like `workers-site.js`

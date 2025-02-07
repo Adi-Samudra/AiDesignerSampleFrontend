@@ -1,10 +1,11 @@
 name = "aidesignerfrontend"
 compatibility_date = "2023-02-07"
 
-# This is the Workers Sites configuration to serve your static files
+# The build command for Next.js (builds the app and exports static assets)
 [build]
-command = "npm run build"  # Your build command for Next.js or React
+command = "npm run build"
 
+# Workers Sites configuration to serve static assets
 [site]
-bucket = "./out"  # Path to the directory containing your static assets (for Next.js it's 'out')
-entry-point = "workers-site.js"  # The worker script that handles serving static files
+bucket = "./out"  # The directory containing static assets after running `next export`
+entry-point = "workers-site"  # Cloudflare automatically uses this worker for serving static files

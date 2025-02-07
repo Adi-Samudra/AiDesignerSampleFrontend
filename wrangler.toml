@@ -1,6 +1,6 @@
 name = "aidesignerfrontend"
 compatibility_date = "2023-02-07"
-main="/app/layout.tsx"
+main="./.next"
 
 # The build command for Next.js (builds the app and exports static assets)
 [build]
